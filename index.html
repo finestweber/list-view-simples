@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #ff3772;
+
+    }
+
+    ul {
+        position: relative;
+        width: 100%;
+        margin: 100px auto 0;
+
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    ul li {
+        display: flex;
+        background: rgba(255, 255, 255, .1);
+        padding: 10px 20px;
+        color: #fff;
+        margin: 5px 0;
+        transition: .5s;
+    }
+
+
+
+    ul li span:nth-child(1) {
+        width: 30px;
+    }
+
+    ul li span:nth-child(2) {
+        width: 160px;
+    }
+
+    ul li span:nth-child(3) {
+        width: 50px;
+    }
+
+    ul li span:nth-child(4) {
+        width: 70px;
+        text-align: right;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+</style>
+
+<body>
+    <ul>
+        <li>
+            <span class="number">1</span>
+            <span class="name">Corte </span>
+            <span class="points">20,00</span>
+            <span class="badge"><a href="#">Reservar</a></span>
+        </li>
+        <li>
+            <span class="number">2</span>
+            <span class="name">Progressiva</span>
+            <span class="points">66</span>
+            <span class="badge"><a href="#">Reservar</a></span>
+        </li>
+        <li>
+            <span class="number">3</span>
+            <span class="name">Tintura</span>
+            <span class="points">66</span>
+            <span class="badge"><a href="#">Reservar</a></span>
+        </li>
+    </ul>
+</body>
+
+</html>
